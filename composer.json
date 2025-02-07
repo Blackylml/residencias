@@ -1,0 +1,25 @@
+{
+    "name": "gilbe/residencias-test",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "microsoft/microsoft-graph": "*",
+        "vlucas/phpdotenv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gilbe\\ResidenciasTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Blackylml",
+            "email": "70767701+Blackylml@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "tbachert/spi": true
+        }
+    }
+}
